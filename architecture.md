@@ -1,22 +1,43 @@
-# 🏗️ System Architecture
+# System Architecture
 
-User
- ↓
-React Frontend
- ↓
-Role-Based Portal
- ↓
- ├── Clinic Portal
- ├── Doctor Portal
- └── Admin Portal
- ↓
-Firebase
- ↓
-Patient / Referral Data
+MediBridge follows a modular architecture designed to connect different healthcare stakeholders through a centralized digital platform.
 
-Additional Services:
+The system separates the user interface, role-based workflows, data services, mapping services, and AI assistance to keep the platform organized and scalable.
 
-React
- ├── Leaflet → Maps
- ├── Google Maps → Navigation
- └── Gemini → AI Assistant
+---
+
+## 1. High-Level Architecture
+
+```text
+                         MEDIBRIDGE PLATFORM
+                                |
+                                v
+                     +----------------------+
+                     |    React Frontend    |
+                     +----------+-----------+
+                                |
+                    +-----------+-----------+
+                    |           |           |
+                    v           v           v
+              Clinic Portal  Doctor Portal  Admin Portal
+                    |           |           |
+                    +-----------+-----------+
+                                |
+                                v
+                     +----------------------+
+                     |   Firebase Services  |
+                     +----------+-----------+
+                                |
+                         +------+------+
+                         |             |
+                         v             v
+                  Patient Data    Referral Data
+
+
+              Supporting Services
+              -------------------
+
+        +------------+   +-------------+   +-------------+
+        |  Leaflet   |   | Google Maps |   |   Gemini AI |
+        |    Maps    |   | Navigation  |   |  Assistant  |
+        +------------+   +-------------+   +-------------+
