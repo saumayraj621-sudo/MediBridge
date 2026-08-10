@@ -83,6 +83,19 @@ improving coordination between healthcare stakeholders.
 | Version Control | Git & GitHub |
 
 ---
+## 📸 Screenshots
+
+### 🏠 Landing Page
+![MediBridge Landing Page](screenshots/landing.png)
+
+### 🏥 Portal Selection
+![MediBridge Portal Selection](screenshots/portals.png)
+
+### 📊 Admin Dashboard
+![MediBridge Admin Dashboard](screenshots/admin-dashboard.png)
+
+### 🗺️ Healthcare Map
+![MediBridge Healthcare Map](screenshots/maps.png)
 
 ## 🏗️ Architecture
 
