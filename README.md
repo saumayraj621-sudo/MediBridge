@@ -1,4 +1,4 @@
-# 🌉 MediBridge
+#  MediBridge
 
 ### Unified Health Referral & Rural Outreach Platform
 
