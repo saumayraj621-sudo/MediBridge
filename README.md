@@ -1,10 +1,12 @@
 # 🌉 MediBridge Connect
 
-### Unified Healthcare Referral & Rural Outreach Platform
+### Unified Health Referral & Rural Outreach Platform
 
-MediBridge Connect is a digital healthcare platform designed to connect
-patients, clinics, doctors, and healthcare organizations through a
-unified referral and outreach system.
+MediBridge Connect is a digital healthcare referral platform designed
+to connect rural clinics, hospitals, doctors, and administrative teams
+through a unified system.
+
+---
 
 ## 🎯 Problem
 
@@ -13,72 +15,98 @@ doctor, clinic, and hospital information is spread across different
 systems.
 
 MediBridge aims to provide a centralized platform for managing
-healthcare referrals, discovering nearby facilities, and improving
-communication between healthcare stakeholders.
+healthcare referrals, discovering nearby healthcare facilities, and
+improving coordination between healthcare stakeholders.
+
+---
 
 ## 🚀 Key Features
 
-- 👨‍⚕️ Clinic Portal
-- 🏥 Doctor Portal
-- 📊 Admin Dashboard
-- 🧑‍🤝‍🧑 Patient Management
-- 🔄 Healthcare Referral Management
-- 🤖 AI-powered MediBot
-- 🗺️ Healthcare Facility Maps
-- 📍 Location-based Facility Discovery
-- 🏥 PHC, Hospital, Lab & Pharmacy Discovery
-- 🚑 Ambulance Information
-- 📈 Referral & Patient Analytics
+### 👨‍⚕️ Multi-Portal System
+
+- Clinic Portal
+- Doctor Portal
+- Admin Dashboard
+- Patient Registration
+- Referral Management
+- Referral Status Tracking
+
+### 🤖 Smart MediBot
+
+- Nearby clinic discovery
+- Nearby hospital discovery
+- PHC discovery
+- Browser geolocation support
+- Google Maps navigation
+- AI-powered assistance
+
+### 🗺️ Interactive Maps
+
+- Healthcare facility markers
+- PHC locations
+- Labs
+- Pharmacies
+- Ambulances
+- Location-based discovery
+
+### 📊 Dashboards
+
+- Total patients
+- Active referrals
+- Completed referrals
+- Pending diagnoses
+- Recent referral history
+- Activity monitoring
+
+### 🎨 UI & UX
+
+- Responsive interface
+- Tailwind CSS
+- Modern dashboard design
+- Dark/light theme support
+- Interactive components
+
+---
 
 ## 🛠️ Tech Stack
 
-- React
-- TypeScript
-- Tailwind CSS
-- Vite
-- Firebase
-- Leaflet
-- Google Maps
-- Google Gemini
+| Category | Technology |
+|---|---|
+| Frontend | React.js |
+| Language | TypeScript |
+| Styling | Tailwind CSS |
+| Build Tool | Vite |
+| Database / Storage | Firebase |
+| Maps | Leaflet.js |
+| Navigation | Google Maps |
+| AI | Google Gemini |
+| Version Control | Git & GitHub |
 
-## 🏗️ Project Architecture
+---
 
-The platform is organized around role-based healthcare portals
-with supporting services for authentication, data management,
-maps, and AI assistance.
+## 🏗️ Architecture
 
-See [Architecture](architecture.md) for more details.
+MediBridge follows a role-based healthcare platform architecture
+connecting users with dedicated portals and supporting services.
 
-## 📚 Documentation
-
-- [Project Overview](project-overview.md)
-- [Features](features.md)
-- [Architecture](architecture.md)
-- [Team & Contribution](contribution.md)
-
-## 👥 Team
-
-### Team Grey Hats
-
-**Team Lead:** Adarsh Arya
-
-**Team Member:** Saumay Raj
-
-This repository documents my participation and contribution to the
-MediBridge team project.
-
-## 🌐 Live Demo
-
-Add the official deployed MediBridge demo link here.
-
-## 🔗 Original Team Repository
-
-This is the team's original MediBridge repository:
-
-https://github.com/itsaddyon/MediBridge
-
-## 📌 Note
-
-MediBridge was developed as a collaborative team project.
-This repository is maintained to document the project and my
-participation as a team member.
+```text
+                    MediBridge Connect
+                           │
+              ┌────────────┼────────────┐
+              │            │            │
+        Clinic Portal  Doctor Portal  Admin Portal
+              │            │            │
+              └────────────┼────────────┘
+                           │
+                     Firebase
+                           │
+              ┌────────────┴────────────┐
+              │                         │
+       Patient Data              Referral Data
+              │
+              ├───────────────┐
+              │               │
+         Leaflet /        Google Maps
+         Maps              Navigation
+              │
+              └────── MediBot / Gemini
