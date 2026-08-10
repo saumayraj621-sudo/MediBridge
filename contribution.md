@@ -2,29 +2,27 @@
 
 ## Role
 
-Team Member — MediBridge / Team Grey Hats
+**Team Member — MediBridge / Team Grey Hats**
 
-## Responsibilities
+## Contribution
 
-- [Your actual contribution]
-- [Your actual contribution]
-- [Your actual contribution]
+I participated as a team member in the development and documentation
+of the MediBridge Connect project.
 
-## Technologies I Worked With
-
-- React
-- TypeScript
-- Tailwind CSS
-- Firebase
-- Git & GitHub
+My involvement included collaborating with the team during project
+development, reviewing project requirements, and contributing to the
+project documentation and GitHub presentation.
 
 ## Collaboration
 
-Worked with the MediBridge team using GitHub for
-source-code collaboration, version control and project development.
+Worked as part of **Team Grey Hats** using GitHub for project
+collaboration, version control, and documentation.
 
 ## Team
 
-- Adarsh Arya — Team Lead
-- Saumay Raj — Team Member
-- Team Grey Hats
+- **Team Lead:** Adarsh Arya
+- **Team Member:** Saumay Raj
+
+## Original Team Repository
+
+https://github.com/itsaddyon/MediBridge
